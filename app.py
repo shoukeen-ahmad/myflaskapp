@@ -4,7 +4,7 @@ app = Flask(name)
 
 @app.route("/")
 def home():
-    return "Hello, This is Sam!"
+    return "Hello, This is Sam and another trigger!"
 
 if name == "main":
     app.run(host="0.0.0.0", port=5000)
